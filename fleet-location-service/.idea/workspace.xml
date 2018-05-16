@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8efcfa7-01e6-4cfa-8d27-0ce2d249ea31" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/domain/FaultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/domain/FaultCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/domain/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/domain/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/rest/FleetBuildUploadRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/rest/FleetBulkUploadRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/service/impl/LocationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/service/impl/LocationServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,32 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LocationRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eric/spring/uber/domain/LocationRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eric/spring/uber/service/LocationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LocationServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eric/spring/uber/service/impl/LocationServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="192">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#579#580#0" expanded="true" />
@@ -52,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FleetBuildUploadRestController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eric/spring/uber/rest/FleetBuildUploadRestController.java">
+      <file leaf-file-name="FleetBulkUploadRestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eric/spring/uber/rest/FleetBulkUploadRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="401">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/domain/LocationRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/service/LocationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/service/impl/LocationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eric/spring/uber/rest/FleetBulkUploadRestController.java" />
       </list>
     </option>
   </component>
@@ -159,6 +148,43 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="uber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fleet-location-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fleet-location-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uber" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fleet-location-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fleet-location-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uber" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fleet-location-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fleet-location-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uber" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fleet-location-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fleet-location-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uber" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,12 +275,12 @@
       <updated>1526440171670</updated>
       <workItem from="1526440175017" duration="2431000" />
       <workItem from="1526442642233" duration="1228000" />
-      <workItem from="1526443890191" duration="3188000" />
+      <workItem from="1526443890191" duration="4476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6847000" />
+    <option name="totallyTimeSpent" value="8135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,6 +509,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eric/spring/uber/rest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eric/spring/uber/domain/LocationRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -500,17 +533,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eric/spring/uber/rest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eric/spring/uber/service/impl/LocationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="192">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
@@ -521,10 +547,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eric/spring/uber/rest/FleetBuildUploadRestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eric/spring/uber/rest/FleetBulkUploadRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="401">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
