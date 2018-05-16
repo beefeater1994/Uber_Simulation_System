@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 
 public interface LocationRepository extends JpaRepository<Location, Long> {
-    Page<Location> findByVehicleMovementByType(@Param("movementType") Location.VehicleMovementType movementType, Pageable pageable);
+    Page<Location> findByVehicleMovementType(@Param("movementType") Location.VehicleMovementType movementType, Pageable pageable);
     Page<Location> findByUnitInfoUnitVin(@Param("unitVin") String unitVin, Pageable pageable);
 }

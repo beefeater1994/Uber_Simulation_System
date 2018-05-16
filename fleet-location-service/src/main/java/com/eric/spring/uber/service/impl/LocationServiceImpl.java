@@ -28,7 +28,7 @@ public class LocationServiceImpl implements LocationService {
     }
 
     public Page<Location> findByVehicleMovementType(String movementType, Pageable pageable) {
-        return this.locationRepository.findByVehicleMovementByType(Location.VehicleMovementType.valueOf(movementType), pageable);
+        return this.locationRepository.findByVehicleMovementType(Location.VehicleMovementType.valueOf(movementType), pageable);
     }
 
     public Page<Location> findByVin(String vin, Pageable pageable) {
